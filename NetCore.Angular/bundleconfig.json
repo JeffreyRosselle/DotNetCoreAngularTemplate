@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [
+      "wwwroot/css/*.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/system.config.min.js",
+    "inputFiles": [
+      "wwwroot/system.config.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/reflect-metadata/Reflect.min.js",
+    "inputFiles": [
+      "wwwroot/lib/reflect-metadata/Reflect.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/systemjs/dist/system.min.js",
+    "inputFiles": [
+      "wwwroot/lib/systemjs/dist/system.js"
+    ]
+  }
+]

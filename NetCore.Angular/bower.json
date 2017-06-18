@@ -1,0 +1,22 @@
+{
+  "name": "laloubeauty",
+  "private": true,
+  "dependencies": {
+    "jQuery": "3.2.1",
+    "font-awesome": "4.7.0",
+    "bootstrap": "v4.0.0-alpha.6"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*",
+      "css": "dist/css/*"
+    },
+    "jquery": {
+      "js": "dist/*"
+    },
+    "font-awesome": {
+      "fonts": "fonts/*",
+      "css": "css/*"
+    }
+  }
+}

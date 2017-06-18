@@ -1,0 +1,62 @@
+﻿@{
+    var production = Context.Request.Host.ToString().Contains("");
+}
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head prefix="og: http://ogp.me/ns#">
+    <base href="/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta http-equiv="content-language" content="en">
+    <link rel="alternate" href="" hreflang="en-US" />
+    <meta property="og:title" content="@ViewBag.Title" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="@ViewBag.Title">
+    <meta name="twitter:url" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="">
+    <meta name="google-site-verification" content="" />
+    <meta name="msvalidate.01" content="" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" defer async />
+    <link href="~/lib/tether/dist/css/tether.min.css" rel="stylesheet" defer async />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" defer async />
+    <link href="~/css/site.min.css" rel="stylesheet" defer async />
+</head>
+<body>
+
+    @RenderBody()
+
+    <script src="~/lib/reflect-metadata/Reflect.min.js"></script>
+    <script src="~/lib/zone.js/dist/zone.min.js"></script>
+    <script src="~/lib/systemjs/dist/system.min.js"></script>
+    <script src="~/lib/jQuery/dist/jquery.min.js"></script>
+    <script src="~/lib/tether/dist/js/tether.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/system.config.min.js"></script>
+    <script>
+        System.import('app').catch(function (err) { console.error(err); });
+    </script>
+
+    <script defer async>
+            var $buoop = { c: 2, l: "en" };
+            function $buo_f() {
+                var e = document.createElement("script");
+                e.src = "//browser-update.org/update.min.js";
+                document.body.appendChild(e);
+            };
+            try { document.addEventListener("DOMContentLoaded", $buo_f, false) }
+            catch (e) { window.attachEvent("onload", $buo_f) }
+    </script>
+</body>
+</html>
