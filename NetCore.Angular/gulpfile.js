@@ -51,7 +51,7 @@ gulp.task('sass', function () {
         .pipe(gulp.dest(paths.target.css));
 });
 gulp.task('sass:watch', function () {
-    gulp.watch(paths.sass, ['sass']);
+    gulp.watch(paths.source.sass, ['sass']);
 });
 
 gulp.task('moveToLibs', function () {
