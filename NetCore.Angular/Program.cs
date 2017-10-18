@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Lalou.Website
+namespace NetCore.Angular
 {
     public class Program
     {
